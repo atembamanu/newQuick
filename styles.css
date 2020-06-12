@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400);
+body {
+  background-color: #f9fafb;
+  font: 16px/1.4em "Montserrat", Arial, sans-serif;
+}
+.cardSetup {
+  height: 8rem;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.chart-text {
+  /*font: 16px/1.4em "Montserrat", Arial, sans-serif;*/
+  fill: #000;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+
+.chart-number {
+  font-size: 0.6em;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+
+figure {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  figure {
+    flex-direction: row;
+  }
+}
+
+.figure-content,
+.figure-key {
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.progress {
+  width: 10rem;
+  background-color: #eaeef3;
+  height: 0.6rem;
+}
+
+#project1 {
+  background-color: aquamarine;
+  width: 90%;
+  height: 0.6rem;
+}
+
+#project2 {
+  background-color: aquamarine;
+  width: 60%;
+  height: 0.6rem;
+}
+
+#project3 {
+  background-color: #f47135;
+  width: 40%;
+  height: 0.6rem;
+}
+#project4 {
+  background-color: aquamarine;
+  width: 80%;
+  height: 0.6rem;
+}
+#project5 {
+  background-color: #f47135;
+  width: 10%;
+  height: 0.6rem;
+}
+.best {
+  border: 1px #eaeef3 solid;
+  width: 80%;
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 11px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.best div {
+  flex-grow: 1;
+}
